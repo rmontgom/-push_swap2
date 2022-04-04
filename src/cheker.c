@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   cheker.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/21 17:42:41 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/22 00:25:39 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/21 17:42:41 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:18:46 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 static void	get_cmd(t_all *all, char *line)
 {

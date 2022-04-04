@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   sort_big.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/17 16:36:26 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/22 16:23:41 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/17 16:36:26 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:49:38 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 int	search_min_b_to_a(t_all *all)
 {
@@ -55,15 +55,6 @@ void	move_b_to_a(t_all *all)
 		}
 	}
 }
-
-// void	move_a_to_b(t_all *all)
-// {
-// 	int flag;
-
-// 	flag = all->stack_a->flag;
-// 	while (all->stack_a->flag == flag && flag != -1)
-// 			pb(all);
-// }
 
 void	move_a_to_b(t_all *all)
 {

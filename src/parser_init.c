@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   parser_init.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/12 21:24:02 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/21 17:12:40 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/12 21:24:02 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:20:41 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 t_all	*init_struct(char **arr)
 {

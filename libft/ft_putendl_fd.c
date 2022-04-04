@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/15 18:17:09 by einterdi          #+#    #+#             */
-/*   Updated: 2021/10/15 18:38:51 by einterdi         ###   ########.fr       */
+/*   Created: 2021/10/12 22:21:48 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 14:38:22 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

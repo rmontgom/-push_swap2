@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   sort_optima.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/22 14:57:33 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/22 16:51:56 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/22 14:57:33 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:54:01 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 void	sort_three_a_to_b(t_all *all)
 {
@@ -33,7 +33,7 @@ void	sort_three_a_to_b(t_all *all)
 		sb(all, 1);
 }
 
-void	privet_norma(t_all *all, int flag)
+void	sort_1(t_all *all, int flag)
 {
 	sort_three_a_to_b(all);
 	if (all->stack_a->index > all->stack_a->next->index && \
@@ -79,11 +79,11 @@ void	sort_a_to_b_five(t_all *all, int flag, int min, int i)
 				pb(all, 1);
 			i--;
 		}
-		privet_norma(all, flag);
+		sort_1(all, flag);
 	}
 }
 
-void	privet_norma_2(t_all *all, int flag)
+void	sort_2(t_all *all, int flag)
 {
 	sort_three_a_to_b(all);
 	if (all->stack_a->index > all->stack_a->next->index && \
@@ -110,12 +110,10 @@ void	sort_b_to_a_five(t_all *all)
 	int		flag;
 	int		min;
 	int		i;
-	t_node	*tmp;
 
 	i = all->size_b;
 	min = all->stack_a->prev->index + 1;
 	flag = all->stack_a->flag;
-	tmp = all->stack_a;
 	while (i > 3)
 	{
 		if (all->stack_b->index == min)
@@ -128,5 +126,5 @@ void	sort_b_to_a_five(t_all *all)
 			pa(all, 1);
 		i--;
 	}
-	privet_norma_2(all, flag);
+	sort_2(all, flag);
 }

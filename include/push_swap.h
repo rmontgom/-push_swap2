@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/09 17:44:03 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/22 16:55:02 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/09 17:44:03 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:54:54 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define PUSH_SWAP_H
 
 # include "../libft/libft.h"
-# include <stdio.h> // для printf (после удалить)
+# include <stdio.h>
 # include <stdlib.h>
 
 # define MAX_INT 2147483647
@@ -109,8 +109,5 @@ void	move_a_to_b_first(t_all *all);
 void	min_max_med_a(t_all *all);
 void	min_max_med_b(t_all *all);
 void	move_down(t_all *all);
-
-// ps_print.c - перед сдачей удалить
-void	print_stacks(t_all *all, t_node *tmp_a, t_node	*tmp_b);
 
 #endif

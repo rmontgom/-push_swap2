@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   sort_med.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/15 14:29:49 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/22 00:22:17 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/15 14:29:49 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:20:16 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 void	move_down(t_all *all)
 {

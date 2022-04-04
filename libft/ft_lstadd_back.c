@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/16 20:32:55 by einterdi          #+#    #+#             */
-/*   Updated: 2021/10/17 12:30:14 by einterdi         ###   ########.fr       */
+/*   Created: 2021/10/12 22:21:48 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 14:35:20 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

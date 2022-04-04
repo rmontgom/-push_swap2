@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/09 17:44:12 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/22 16:54:22 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/09 17:44:12 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:45:44 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 t_all	*parsing(char **argv)
 {
@@ -49,27 +49,6 @@ void	sorting(t_all *all)
 		}
 	}
 }
-
-// void	sorting(t_all *all)
-// {
-// 	if (sort_true(all))
-// 		free_stack(all);
-// 	if (all->size_a < 6)
-// 	{
-// 		sort_five(all);
-// 		free_stack(all);
-// 	}
-// 	move_a_to_b_first(all);
-// 	while (!(sort_true(all) && all->size_b == 0))
-// 	{
-// 		if (all->size_b > 0 && all->size_b < 4)
-// 			sort_three_b(all);
-// 		else if (all->size_b >= 4)
-// 			move_b_to_a(all);
-// 		if (all->size_b == 0)
-// 			move_a_to_b(all);
-// 	}
-// }
 
 int	main(int argc, char **argv)
 {

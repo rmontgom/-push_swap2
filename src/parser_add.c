@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   parser_add.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/12 21:09:17 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/21 15:38:32 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/12 21:09:17 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:30:14 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 void	add_to_stack(t_all *all, char **arr)
 {
@@ -89,84 +89,3 @@ void	create_stack(t_all *all, int *sort, int *not_sort, int len)
 	free(not_sort);
 	free(sort);
 }
-
-// void	add_to_stack(t_all *all, char **arr)
-// {
-// 	int	*not_sort;
-// 	int	*sort;
-// 	int	i;
-// 	int	j;
-// 	int	tmp;
-// 	int	count;
-// 	int	num;
-// 	int len = 0;
-
-// 	i = -1;
-// 	while (arr[++i])
-// 		len++;
-// 	not_sort = malloc(sizeof(int) * (len));
-// 	sort = malloc(sizeof(int) * (len));
-// 	i = 0;
-// 	while (i < len)
-// 	{
-// 		num = ft_atoi(arr[i]);
-// 		not_sort[i] = num;
-// 		sort[i] = num;
-// 		i++;
-// 	}
-// 	// i = -1;
-// 	// while (++i < len)
-// 	// 	printf("%d ", not_sort[i]);
-// 	// printf("Начальный массив\n");
-// 	i = 0;
-// 	count = 0;
-// 	while(i < len)
-// 	{
-// 		j = 0;
-// 		while (j < (len -1 -i))
-// 		{
-// 			if(sort[j] > sort[j + 1])
-// 				{
-// 					tmp = sort[j+1];
-// 					sort[j+1] = sort[j];
-// 					sort[j] = tmp;
-// 					count++;
-// 				}
-// 			j++;
-// 		}
-// 		i++;
-// 	}
-// 	// i = 0;
-// 	// while (i < len)
-// 	// {
-// 	// 	printf("%d ", sort[i]);
-// 	// 	i++;
-// 	// }
-// 	// printf("Массив отсортирован\nИтераций %d\n", count);
-
-// 	i = 0;
-// 	while (i < len)
-// 	{
-// 		j = 0;
-// 		while (j < len)
-// 		{
-// 			if (not_sort[i] == sort[j])
-// 			{
-// 				lstadd_back(&all->stack_a, new_list(not_sort[i], j + 1));
-// 				j++;
-// 				break ;
-// 			}
-// 			j++;
-// 		}
-// 		i++;
-// 	}
-
-// 	// i = -1;
-// 	// while(++i < all->size_a)
-// 	// {
-// 	// 	printf("i = %d, (%d)\n", i, all->stack_a->num);
-// 	// 	all->stack_a = all->stack_a->next;
-// 	// }
-// 	free(not_sort);
-// 	free(sort);
-// }

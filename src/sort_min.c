@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   sort_min.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/17 15:47:23 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/22 16:50:08 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/17 15:47:23 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:19:59 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 int	sort_true(t_all *all)
 {

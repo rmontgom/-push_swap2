@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   parser_check.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/16 21:06:12 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/21 17:09:34 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/16 21:06:12 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:20:45 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 void	error(void)
 {

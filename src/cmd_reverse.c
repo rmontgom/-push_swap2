@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   cmd_reverse.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rmontgom <rmontgom@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/12 23:01:02 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/22 00:14:56 by einterdi         ###   ########.fr       */
+/*   Created: 2022/01/12 23:01:02 by rmontgom          #+#    #+#             */
+/*   Updated: 2022/04/04 20:19:47 by rmontgom         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../include/push_swap.h"
 
 /*rra : reverse rotate a - сдвигает вниз все элементы стека a на 1.
 			Последний элемент становится первым.
